@@ -28,7 +28,7 @@ jobs:
           command: npm run test
       - run:
           name: install-truffle
-          command: npm install -g truffle
+          command: sudo npm install -g truffle
       - save_cache:
           key: dependency-cache{{ checksum "package-lock.json" }}
           paths:
