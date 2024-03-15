@@ -13,5 +13,5 @@ A
 package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 7
 bin/www,f/9/f9f3ad31c1666c9d010b84cbbe24e70370a40411
-@
-x19101546_XP.pem,f/5/f51481a193382010f1fae5a1b4673f2a8dc78373
+9
+	deploy.sh,b/e/be94fd40f0c4b440044c3f852e44fd2a75f7b3cc
