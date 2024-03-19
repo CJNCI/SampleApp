@@ -15,6 +15,5 @@ echo $SERVER > server.crt
 pm2 kill
 pm2 start ./bin/www --name SampleApp
 pm2 monitor SampleApp
-pm2 logs
-pm2 flush
+
 
