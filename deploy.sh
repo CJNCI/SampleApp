@@ -9,7 +9,7 @@ cd SampleApp/
 # Install application dependencies
 npm install
 # Start the application with the process name sample_app using pm2
-pm2 start ./bin/www --name sample_app
+pm2 start ./bin/www --name SampleApp
 # For debugging purposes
-pm2 monitor sample_app
+pm2 monitor SampleApp
 pm2 logs
