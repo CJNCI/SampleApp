@@ -14,4 +14,5 @@ echo $SERVER > server.crt
 # Start the application with the process name sample_app using pm2
 pm2 start ./bin/www --name SampleApp
 pm2 monitor SampleApp
+pm2 flush
 pm2 logs
