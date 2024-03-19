@@ -10,6 +10,3 @@ cd SampleApp/
 npm install
 # Start the application with the process name sample_app using pm2
 pm2 start ./bin/www --name SampleApp
-# For debugging purposes
-pm2 monitor SampleApp
-pm2 logs
